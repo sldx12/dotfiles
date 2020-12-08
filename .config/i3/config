@@ -104,12 +104,12 @@ bindsym $mod+a focus parent
 set $ws1 "1: "
 set $ws2 "2: "
 set $ws3 "3: "
-set $ws4 "4: "
-set $ws5 "5"
-set $ws6 "6"
+set $ws4 "4: "
+set $ws5 "5: "
+set $ws6 "6: "
 set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9: "
+set $ws8 "8: "
+set $ws9 "9: "
 set $ws10 "10: "
 
 # switch to workspace
@@ -128,10 +128,13 @@ assign [class="firefox"] $ws1
 assign [class="Xfce4-terminal"] $ws2
 assign [class="discord"] $ws3
 assign [class="TelegramDesktop"] $ws3
-assign [class="VirtualBox Manager"] $ws4
-assign [class="Spotify"] $ws10
-assign [class="spotify"] $ws10
-assign [class="Gimp"] $ws9
+assign [class="Thunar"] $ws4
+assign [class="Eom"] $ws5
+assign [class="mpv"] $ws5
+assign [class="Chromium"] $ws6
+assign [class="Gimp"] $ws8
+assign [class="VirtualBox Manager"] $ws9
+for_window [class="Spotify"] move to workspace $ws10
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
