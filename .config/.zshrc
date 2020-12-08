@@ -97,3 +97,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias n="nnn -C"
+alias sd="sudo shutdown -h now"
+alias qnap="sudo mount -t cifs -o user=[user],password=[password],iocharset=utf8,noperm //[ip-address]/[folder] /mnt/NAS"
