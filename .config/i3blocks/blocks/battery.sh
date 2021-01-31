@@ -5,7 +5,7 @@ STATE=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | awk '/state/ {p
 
 if [[ "$STATE" = "charging" ]]; then
 	echo "" "$BATTERY%"
-elif [[ "$STATE" = "discharging" ]]; then
+elif [[ "$STATE" = "discharging" ]] || [[ "$STATE" = "fully-charged" ]]; then
 	if [[ "$BATTERY" -ge 90 ]]; then
 		echo "" "$BATTERY%"
 	elif [[ "$BATTERY" -ge 60 ]]; then
