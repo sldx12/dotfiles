@@ -105,9 +105,9 @@ set $ws1 "1: "
 set $ws2 "2: "
 set $ws3 "3: "
 set $ws4 "4: "
-set $ws5 "5: "
+set $ws5 "5: "
 set $ws6 "6: "
-set $ws7 "7"
+set $ws7 "7: "
 set $ws8 "8: "
 set $ws9 "9: "
 set $ws10 "10: "
@@ -129,9 +129,15 @@ assign [class="Xfce4-terminal"] $ws2
 assign [class="discord"] $ws3
 assign [class="TelegramDesktop"] $ws3
 assign [class="Thunar"] $ws4
-assign [class="Eom"] $ws5
-assign [class="mpv"] $ws5
-assign [class="Chromium"] $ws6
+assign [class="Eom"] $ws4
+assign [class="mpv"] $ws4
+assign [class="Chromium"] $ws5
+assign [class="Gnome-calculator"] $ws6
+assign [class="qvidcap"] $ws6
+assign [class="Gedit"] $ws6
+assign [class="Baobab"] $ws7
+assign [class="Gnome-disks"] $ws7
+assign [class="GParted"] $ws7
 assign [class="Gimp"] $ws8
 assign [class="VirtualBox Manager"] $ws9
 for_window [class="Spotify"] move to workspace $ws10
@@ -240,4 +246,6 @@ exec light -A 100
 
 gaps inner 15
 for_window [workspace=$ws3] layout stacked
+for_window [workspace=$ws4] layout stacked
+for_window [workspace=$ws6] layout stacked
 for_window [class="^.*"] border pixel 8
