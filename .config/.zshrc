@@ -100,3 +100,4 @@ source $ZSH/oh-my-zsh.sh
 alias n="nnn -C"
 alias sd="sudo shutdown -h now"
 alias qnap="sudo mount -t cifs -o user=[user],password=[password],iocharset=utf8,noperm //[ip-address]/[folder] /mnt/NAS"
+alias hdmi="xrandr --output HDMI-1 --auto"
