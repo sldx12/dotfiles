@@ -135,6 +135,7 @@ assign [class="Chromium"] $ws5
 assign [class="Gnome-calculator"] $ws6
 assign [class="qvidcap"] $ws6
 assign [class="Gedit"] $ws6
+assign [class="Transmission-gtk"] $ws6
 assign [class="Baobab"] $ws7
 assign [class="Gnome-disks"] $ws7
 assign [class="GParted"] $ws7
