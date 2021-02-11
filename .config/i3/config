@@ -136,6 +136,7 @@ assign [class="Gnome-calculator"] $ws6
 assign [class="qvidcap"] $ws6
 assign [class="Gedit"] $ws6
 assign [class="Transmission-gtk"] $ws6
+assign [class="Xarchiver"] $ws6
 assign [class="Baobab"] $ws7
 assign [class="Gnome-disks"] $ws7
 assign [class="GParted"] $ws7
@@ -249,4 +250,5 @@ gaps inner 15
 for_window [workspace=$ws3] layout stacked
 for_window [workspace=$ws4] layout stacked
 for_window [workspace=$ws6] layout stacked
+for_window [workspace=$ws8] layour stacked
 for_window [class="^.*"] border pixel 8
