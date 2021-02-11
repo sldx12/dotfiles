@@ -250,5 +250,5 @@ gaps inner 15
 for_window [workspace=$ws3] layout stacked
 for_window [workspace=$ws4] layout stacked
 for_window [workspace=$ws6] layout stacked
-for_window [workspace=$ws8] layour stacked
+for_window [workspace=$ws8] layout stacked
 for_window [class="^.*"] border pixel 8
